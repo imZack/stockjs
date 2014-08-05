@@ -1,0 +1,22 @@
+{
+  "name": "stockjs",
+  "version": "0.0.1",
+  "description": "Report stock price via email.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "stock",
+    "taiwan"
+  ],
+  "author": "YuLun Shih",
+  "license": "MIT",
+  "dependencies": {
+    "mandrill-api": "^1.0.40"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/imZack/stockjs.git"
+  }
+}
