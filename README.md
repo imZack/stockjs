@@ -15,7 +15,7 @@ Usage
 Example
 -------
 ```js
-var stockjs = require('./index');
+var stockjs = require('stockjs');
 var config = {
   "sendmail": {
     "mandrillKey": "YOUR_API_KEY_HERE",
