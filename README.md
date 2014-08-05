@@ -63,6 +63,10 @@ API
 
 **.sendmail(stockObject, config[, callback(err, result)])**
 
+Data Source
+-----------
+- http://www.gretai.org.tw/web/index.php?l=zh-tw
+
 TODO
 ----
 - Multiple stocks at once
