@@ -1,6 +1,8 @@
 stockjs 上櫃公司股價通知小幫手
 ==============================
 
+![_080614_123140_am](https://cloud.githubusercontent.com/assets/690703/3815208/4f92cb56-1cc2-11e4-9a24-e272c5e82b21.jpg)
+
 查詢上櫃公司當日股價，並透過 [mandrillapp.com](http://mandrillapp.com) 送出郵件通知
 
 Usage
@@ -58,6 +60,7 @@ stockjs.stock.getTodayPrice(3294 /* <-- your stock no*/, function(stockObj) {
 API
 ---
 **.stock.getTodayPrice(stockCode[, callback(stackObj)])**
+
 **.sendmail(stockObject, config[, callback(err, result)])**
 
 TODO
