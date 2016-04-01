@@ -1,6 +1,6 @@
 {
   "name": "stockjs",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Report stock price via email.",
   "main": "index.js",
   "bin": {
