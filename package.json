@@ -3,6 +3,9 @@
   "version": "0.0.3",
   "description": "Report stock price via email.",
   "main": "index.js",
+  "bin": {
+    "stockjs": "./bin/stockjs.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +16,7 @@
   "author": "YuLun Shih",
   "license": "MIT",
   "dependencies": {
-    "mandrill-api": "^1.0.40"
+    "sendgrid": "^2.0.0"
   },
   "repository": {
     "type": "git",
