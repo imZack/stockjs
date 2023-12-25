@@ -4,7 +4,7 @@
   "description": "Report stock price via email.",
   "main": "index.js",
   "bin": {
-    "stockjs": "./bin/stockjs.js"
+    "stockjs": "bin/stockjs.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/imZack/stockjs.git"
+    "url": "git+https://github.com/imZack/stockjs.git"
   },
   "devDependencies": {
     "eslint": "^8.56.0",
