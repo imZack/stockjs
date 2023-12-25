@@ -10,5 +10,6 @@ stock.getTodayPrice('3294', (data) => {
     to: process.env.TO.split(',').map(mail => mail.trim()),
   };
 
+  console.info(data);
   sendmail(data, config);
 });
